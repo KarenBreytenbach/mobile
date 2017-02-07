@@ -1,6 +1,6 @@
 The viewport controls how your webpage is rendered on mobile devices. If no viewport is specified mobile devices will try to render with typical desktop width for compatibility which breaks user experience.
 
-To avoid problems with screen sizes it's not recommended to specify explicit widths for the viewport, rather use relative sizes such as percentage.
+To avoid problems with screen sizes it's not recommended to specify explicit widths for the viewport, but rather to use relative sizes such as percentage.
 
 When checking for the viewport we expect to see the following:
 
@@ -10,7 +10,7 @@ When checking for the viewport we expect to see the following:
 
 in the `<head>` of your page. This will render pages optimised to display well on mobile devices with the full width of the device viewport.
 
-No viewports were found configured on the page, which will cause unexpected behaviour from browsers. With most modern mobile devices defaulting to rendering the page in "desktop" mode with a smaller viewport.
+No viewports were found configured on the page, which will cause unexpected behaviour from browsers. This happens because most modern mobile devices default to rendering the page in "desktop" mode with a smaller viewport.
 
 # How do I fix this ?
 
